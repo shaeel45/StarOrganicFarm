@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="shortcut icon" href="Image/Star Brand logo.png" type="image/x-icon">
+  <title>About us</title>
+</head>
+<style>
+  .sect1 {
+    height: 110vh;
+  }
+
+  .over-lapping strong b {
+    color: #9F2A06;
+  }
+
+  .pro-head {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .swiper-slide img {
+    width: 100%;
+    object-fit: cover;
+    height: 80vh;
+  }
+
+  .sect {
+    background-image: url(Image/Spice\ bg-min.png);
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  .fixed{
+    background-attachment: fixed;
+  }
+
+  .sect p {
+    /* width: 60%; */
+    margin: auto;
+  }
+
+  .sect h2 b {
+    /* font-family: 'Lobster', cursive; */
+    display: grid;
+    /* transform: rotateX(360deg); */
+    transition: 5s;
+  }
+
+  .swiper-pagination {
+    color: #999c13 !important;
+  }
+
+  .heading-primary-main {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #999c13;
+  }
+
+  .heading-primary-sub {
+    width: 100%;
+  }
+
+  .custom-shape-divider-top-1669216450 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+
+
+  .custom-shape-divider-top-1669216720 svg {
+    position: relative;
+    display: block;
+    width: calc(154% + 1.3px);
+    height: 288px;
+  }
+
+  .custom-shape-divider-top-1669216720 .shape-fill {
+    fill: #9F2A06;
+  }
+
+
+  .sect1 img {
+    border-radius: 25px;
+  }
+
+  .text-box {
+    text-align: left;
+    width: 60%;
+    letter-spacing: 0.3px;
+    font-weight: 700;
+    font-size: 15px;
+    /* margin-left: 30%; */
+    margin: auto;
+  }
+  .search{
+  position: relative;
+  transition: all 1s;
+  width: 200px;
+  height: 50px;
+  background: white;
+  border-radius: 25px;
+  border: 4px solid white;
+  padding: 5px;
+  right: 1%;
+}
+
+.search input{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;;
+  height: 42.5px;
+  line-height: 30px;
+  outline: 0;
+  border: 0;
+  font-size: 1em;
+  border-radius: 20px;
+  padding: 0 20px;
+}
+
+
+.search .fa{
+  box-sizing: border-box;
+  padding: 10px;
+  width: 42.5px;
+  height: 42.5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  color:#999c13 ;
+  text-align: center;
+  font-size: 1.2em;
+  transition: all 1s;
+}
+
+
+.search:hover .fa{
+  background: #999C13;
+  color: white;
+}
+</style>
+
+<body>
+ <!-- NAVBAR Start-->
+ <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><img src="Image/star brand logo web.png" alt="Star Organic l"
+        height="70px"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 w-fi">
+        <li class="nav-item main-nav-li">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item main-nav-li">
+          <a class="nav-link" href="products.html">Products</a>
+        </li>
+        <li class="nav-item main-nav-li">
+          <a class="nav-link" href="contactus.html">Contact Us</a>
+        </li>
+        </li>
+        <li class="nav-item main-nav-li">
+          <a class="nav-link" href="About us.html">About Us</a>
+        </li>
+        <li class="nav-item main-nav-li">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+        </li>
+        <li class="nav-item main-nav-li">
+          <a class="nav-link" href="Query.html">Query</a>
+        </li>
+        <li class="nav-item main-nav-li">
+          <div class="dropdown">
+            <button onclick="window.location.href='#contact'" data-toggle="dropdown" class="dropbtn">
+              Categories <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="products.html?pro=Nutritious Cereals" id="nutrientclick">Nutritious
+                Cereals</a>
+              <a class="dropdown-item" href="products.html?pro=Spices and Condiments" id="spiceclick">Spices and
+                Condiments</a>
+              <a class="dropdown-item" href="products.html?pro=Pulses" id="pulsesclick">Pulses</a>
+              <a class="dropdown-item" href="products.html?pro=Cooking oils" id="cookclick">Cooking Oils</a>
+              <a class="dropdown-item" href="products.html?pro=Fruit Pulps" id="fruitclick">Fruit Pulps</a>
+              <a class="dropdown-item" href="products.html?pro=Agro Product" id="agroclick">Agro Products</a>
+              <a class="dropdown-item" href="products.html?pro=Oils" id="oilclick">Oils</a>
+              <a class="dropdown-item" href="products.html?pro=Wheat Flour" id="flourclick">Wheat Flours</a>
+              <a class="dropdown-item" href="products.html?pro=Rice Product" id="riceclick">Rice Products</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <form action="products.html" class="search">
+        <input type="text" placeholder="Search here ..." name="search">
+        <button><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- NAVBAR END -->
+
+  <!-- section cover -->
+  <section class="sect fixed">
+    <div class="custom-shape-divider-top-1669216720">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+          d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+          opacity=".25" class="shape-fill"></path>
+        <path
+          d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+          opacity=".5" class="shape-fill"></path>
+        <path
+          d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+          class="shape-fill"></path>
+      </svg>
+    </div>
+      <div class="col-lg-4 col-md-6 mt-auto mb-5 pb-5">
+        <!-- <div data-aos="fade-up"> -->
+        <h2 class="heading-primary-main">
+          We are only dedicated to supplying organic items
+        </h2>
+        <!-- </div> -->
+        <p class="heading-primary-sub">We provide a big selection of organic and nutritious foods that you can get
+          online to help you live a fantastic and healthy lifestyle.</p>
+      </div>
+  </section>
+  <!-- section cover end -->
+
+  <!-- section about us -->
+  <section class="secto py-5">
+    <div class="container">
+      <div class="row justify-content-center my-5">
+        <div class="col-md-5">
+          <img src="Image/about pic.jpg" alt="Store pic" style="border-radius: 25px;width: 100%;">
+        </div>
+        <div class="col-md-5 ps-5 my-auto">
+          <!-- <div class="over-lapping text-start"> -->
+            <h2 class="display-6 mb-4" style="letter-spacing: 4px; color: #999C13; font-weight: bold;">
+                Star<b>.</b> Organic<b>.</b> Farm<b>.</b>
+            </h2>
+            <p class="m-0 w-100">
+              Star Organic farm is commenced in the year 1988. Company is involved in trading and
+                manufacturing a wide range of Organic Products and spices to the consumers all around the global market.
+                Company has wide variety of collection of products lies of Nutritious cereals, Pulses, Spices and
+                Condiments, Cooking Oils, Fruit Pulps, Agro Products, Oils, Wheat and Wheat Flour, Rice and Rice
+                products etc. </p><br>
+                <p class="m-0 w-100">We work to increase access of local organic produce through farmers markets, pop-ups,
+                delivery, and our local foods co-op.The caring atmosphere we have established for our clients to develop and learn is reflected in our regenerative growth techniques.
+            </p>
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section end -->
+
+
+  <!-- Slider  -->
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="Image/about us slider image-min.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="Image/about us slider image2-min.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="Image/about us slider image3-min.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="Image/about us slider image4-min.jpg" alt=""></div>
+    </div>
+    <div class="swiper-pagination" style="color:#999c13 ;"></div>
+  </div>
+  <!-- Slider end -->
+
+  <!-- section Message  -->
+  <section class="secta my-4 py-4">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-5">
+          <img src="Image/Variety-of-spices-nov22.jpg" alt="image" width="100%" height="370px" style="border-radius: 20px;">
+          <div class="mt-3">
+            <h5 class="text-dark display-6">
+              A Message from our Founder and Director
+            </h5>
+          </div>
+        </div>
+        <div class="col-md-6 ps-md-4">
+          <p>At Star Organic Farm, we're trying to make it easy for you to be more sustainable-whether that's supporting
+            local areas or letting us help you grow your own food and raise your own chickens right here in the city.
+            Our goal is to grow more foods, and then next generation of local food advocates and entrepreneurs.</p>
+            <p>Please enjoy our intentionally curated selection of vegetables, fruit, flowers and variety of collection of
+            products lies of Nutritious cereals, Pulses, Spices and Condiments, Cooking Oils, Fruit Pulps, Agro Products, Oils, Wheat and Wheat Flour, Rice and Rice products etc from our farm.</p>
+            <p>Our farm family is an inclusive and beautiful mix of children, mothers, youth,
+            adults, caregivers-learning and eating and applying artisanal knowledge of crop care and cultivation, never
+            applying chemicals or pesticides on the soil.</p>
+            <p>Our regenerative growing practices reflect the nurturing environment we've created for our clients to learn
+            and heal. Thank you for supporting your local, and we look forward to seeing you in the garden soon!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section Message end -->
+
+  <!-- footer -->
+  <footer class="container-fluid bg-dark text-white pt-4 pb-4">
+    <div class="container text-left text-md-left">
+      <div class="row text-left text-md-left">
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <img src="Image/Star Brand logo.png" alt="" height="100px" class="text-center">
+          <p class="mt-4">Star Organic Farm™</p>
+          <p class="mt-2">Healthy and Fresh products for you.</p>
+        </div>
+        <div class="col-mg-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Product</h5>
+          <p>
+            <a href="#" class="text-white" style="text-decoration: none;">Nutritious Cereals</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration: none;">Spices and Condiments</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration: none;">Fruit Pulps</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration: none;">Wheat Flours</a>
+          </p>
+        </div>
+        <div class="col-mg-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Useful Links</h5>
+          <p>
+            <a href="index.html" class="text-white" style="text-decoration: none;">Home</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration: none;">Shipping Products</a>
+          </p>
+          <p>
+            <a href="Query.html" class="text-white" style="text-decoration: none;">Query</a>
+          </p>
+          <p>
+            <a href="contactus.html" class="text-white" style="text-decoration: none;">Help</a>
+          </p>
+        </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning" ontact>Contact</h5>
+          <p>
+            <i class="fas fa-home mr-3"></i>Karachi,Pakistan
+          </p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> Starorganicform@gmail.com
+          </p>
+          <p>
+            <i class="fas fa-print mr-3"></i> +92 315 6245893
+          </p>
+        </div>
+        <hr class="mb-4">
+        <div class="row align-items-center">
+          <div class="col-md-7 col-lg-8">
+            <p>
+              Copyright ©2022 All rights reserved |
+              <label>This Website is Develop by Muhammad Shaeel Khan</label>
+            </p>
+          </div>
+          <div class="col-md-5 col-lg-4">
+            <div class="text-center text-md-right">
+              <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                  <a href="https://www.facebook.com/StarFarmChicago/" class="btn-floating btn-sm text-white"
+                    style="font-size: 23px;"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://twitter.com/starfarmpk?lang=en" class="btn-floating btn-sm text-white"
+                    style="font-size: 23px;"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="index.html" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                      class="fab fa-google-plus"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.instagram.com/starfarmchicago/" class="btn-floating btn-sm text-white"
+                    style="font-size: 23px;"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.youtube.com/watch?v=p2p3stmWogc" class="btn-floating btn-sm text-white"
+                    style="font-size: 23px;"><i class="fab fa-youtube"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer end -->
+
+
+</body>
+
+
+
+
+
+
+</body>
+
+</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+
+
+  const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    //   direction: 'vertical',
+    loop: true,
+    autoplay: {
+      delay: 2000
+    },
+
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+    // And if we need scrollbar
+    //   scrollbar: {
+    //     el: '.swiper-scrollbar',
+    //   },
+  });
+
+  AOS.init();
+
+
+</script>

@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="Description" content="Enter your description here" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/product.css">
+  <!-- <link rel="stylesheet" href="CSS/"> -->
+  <link rel="shortcut icon" href="Image/Star Brand logo.png" type="image/x-icon" />
+  <title>Products</title>
+</head>
+<style>
+  .search{
+  /* position: relative; */
+  transition: all 1s;
+  width: 200px;
+  height: 50px;
+  background: white;
+  border-radius: 25px;
+  border: 4px solid white;
+  padding: 5px;
+  right: 1%;
+}
+
+.search input{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;;
+  height: 42.5px;
+  line-height: 30px;
+  outline: 0;
+  border: 0;
+  font-size: 1em;
+  border-radius: 20px;
+  padding: 0 20px;
+}
+
+
+.search .fa{
+  box-sizing: border-box;
+  padding: 10px;
+  width: 42.5px;
+  height: 42.5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  color:#999c13 ;
+  text-align: center;
+  font-size: 1.2em;
+  transition: all 1s;
+}
+
+
+.search:hover .fa{
+  background: #999C13;
+  color: white;
+}
+</style>
+
+<body>
+ <!-- NAVBAR Start-->
+ <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><img src="Image/star brand logo web.png" alt="Star Organic l"
+        height="70px"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 w-fi">
+        <li class="nav-item main-nav-li">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item main-nav-li">
+          <a class="nav-link" href="products.html">Products</a>
+        </li>
+        <li class="nav-item main-nav-li">
+          <a class="nav-link" href="contactus.html">Contact Us</a>
+        </li>
+        </li>
+        <li class="nav-item main-nav-li">
+          <a class="nav-link" href="About us.html">About Us</a>
+        </li>
+        <li class="nav-item main-nav-li">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+        </li>
+        <li class="nav-item main-nav-li">
+          <a class="nav-link" href="Query.html">Query</a>
+        </li>
+        <li class="nav-item main-nav-li">
+          <div class="dropdown">
+            <button onclick="window.location.href='#contact'" data-toggle="dropdown" class="dropbtn">
+              Categories <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="products.html?pro=Nutritious Cereals" id="nutrientclick">Nutritious
+                Cereals</a>
+              <a class="dropdown-item" href="products.html?pro=Spices and Condiments" id="spiceclick">Spices and
+                Condiments</a>
+              <a class="dropdown-item" href="products.html?pro=Pulses" id="pulsesclick">Pulses</a>
+              <a class="dropdown-item" href="products.html?pro=Cooking oils" id="cookclick">Cooking Oils</a>
+              <a class="dropdown-item" href="products.html?pro=Fruit Pulps" id="fruitclick">Fruit Pulps</a>
+              <a class="dropdown-item" href="products.html?pro=Agro Product" id="agroclick">Agro Products</a>
+              <a class="dropdown-item" href="products.html?pro=Oils" id="oilclick">Oils</a>
+              <a class="dropdown-item" href="products.html?pro=Wheat Flour" id="flourclick">Wheat Flours</a>
+              <a class="dropdown-item" href="products.html?pro=Rice Product" id="riceclick">Rice Products</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <form action="products.html" class="search">
+        <input type="text" placeholder="Search here ..." name="search">
+        <button><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- NAVBAR END -->
+  <section class="sect">
+    <video autoplay muted loop id="myVideo">
+      <source src="Untitled video - Made with Clipchamp.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+      <div class="video-overlap mt-5">
+        <h1 class="pro-head col-md-2 text-white display-3 mt-5" style="letter-spacing: 4px;">
+          <strong class="bold">
+            Star<b>.</b> Organic<b>.</b> Farm<b>.</b>
+          </strong>
+        </h1>
+        <p class="text-white fs-5 col-md-4 mt-3">
+          "Nature is the best healer.
+          Grown without pesticides."
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="sect4">
+    <div class="container mt-5">
+      <div class="mt-5">
+        <div class="heading-new-div mt-5">
+
+          <div class="mx-4 mt-5">
+            <div data-aos="fade-right">
+              <img src="Image/heading-left-line (1).png" class="left-line heading-line" alt="">
+            </div>
+            <h2 class="text-center text-success" style="font-size: 30px;
+               font-weight: 600;">PRODUCTS</h3>
+              <div data-aos="fade-down">
+                <h5 class="text-center text-dark d-1" style="font-size: xxx-large;
+                font-weight: 400;">Organic and Fresh Goods</h5>
+              </div>
+              <div data-aos="fade-left">
+                <img src="Image/healine 2.png" class="right-line heading-line" alt="">
+              </div>
+
+          </div>
+
+
+        </div>
+        <div class="container">
+          <div class="row mt-4" id="card-data">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <br>
+
+  <!-- footer -->
+
+  <footer class="container-fluid bg-dark text-white pt-4 pb-4">
+    <div class="container text-left text-md-left">
+      <div class="row text-left text-md-left">
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <img src="Image/Star Brand logo.png" alt="" height="100px" class="text-center">
+          <p class="mt-4">Star Organic Farm™</p>
+          <p class="mt-2">Healthy and Fresh products for you.</p>
+        </div>
+
+        <div class="col-mg-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Product</h5>
+          <p>
+            <a href="#" class="text-white" style="text-decoration: none;">Nutritious Cereals</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration: none;">Spices and Condiments</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration: none;">Fruit Pulps</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration: none;">Wheat Flours</a>
+          </p>
+        </div>
+        <div class="col-mg-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Useful Links</h5>
+          <p>
+            <a href="index.html" class="text-white" style="text-decoration: none;">Home</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration: none;">Shipping Products</a>
+          </p>
+          <p>
+            <a href="Query.html" class="text-white" style="text-decoration: none;">Query</a>
+          </p>
+          <p>
+            <a href="contactus.html" class="text-white" style="text-decoration: none;">Help</a>
+          </p>
+        </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning" ontact>Contact</h5>
+          <p>
+            <i class="fas fa-home mr-3"></i>Karachi,Pakistan
+          </p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> Starorganicform@gmail.com
+          </p>
+          <p>
+            <i class="fas fa-print mr-3"></i> +92 315 6245893
+          </p>
+        </div>
+
+        <hr class="mb-4">
+        <div class="row align-items-center">
+          <div class="col-md-7 col-lg-8">
+            <p>
+              Copyright ©2022 All rights reserved |
+              <label>This Website is Develop by Muhammad Shaeel Khan</label>
+            </p>
+          </div>
+          <div class="col-md-5 col-lg-4">
+            <div class="text-center text-md-right">
+              <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                  <a href="https://www.facebook.com/StarFarmChicago/" class="btn-floating btn-sm text-white"
+                    style="font-size: 23px;"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://twitter.com/starfarmpk?lang=en" class="btn-floating btn-sm text-white"
+                    style="font-size: 23px;"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="index.html" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                      class="fab fa-google-plus"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.instagram.com/starfarmchicago/" class="btn-floating btn-sm text-white"
+                    style="font-size: 23px;"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.youtube.com/watch?v=p2p3stmWogc" class="btn-floating btn-sm text-white"
+                    style="font-size: 23px;"><i class="fab fa-youtube"></i></a>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+</html>
+<script src="JS/Json pics/data.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="JS/jquery.min.js"></script>
+<script src="JS/Json pics"></script>
+<script>
+  $(window).scroll(function () {
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 150) {
+      $(".navbar").css("background-color", "white")
+      $(".navbar").css("padding", "0px 20px")
+      $(".nav-item").css("color", "white !important")
+
+    }
+    else {
+      $(".navbar").css("background-color", "rgb(255, 255, 255, 0.9)")
+      $(".navbar").css("padding", "20px 20px")
+      $(".nav-item").css("color", "#999c13")
+    }
+  });
+
+  AOS.init();
+
+  var link = window.location.href;
+  var url = new URL(link);
+  var id = url.searchParams.get('pro');
+  var search = url.searchParams.get('search');
+  console.log(search ? 0 : 1)
+  if (id) {
+    for (var i = 0; i < data.length; i++) {
+      // if(data[i].ProductCategories=="Nutritious Cereals"){
+
+      if (data[i].ProductCategories == id) {
+        document.getElementById('card-data').innerHTML += `      
+      <div class="col-md-4">
+			<div class="product-card">
+                       <div class="badge">Hot</div>
+                      <div class="product-tumb">
+                        <a href="detailPath.html?id=${data[i].ProductID}"><img src="${data[i].ProductImage}" alt=""></a>
+                      </div>
+                      <div class="product-details">
+                        <a href="detailPath.html?id=${data[i].ProductID}"><span class="product-catagory">${data[i].ProductName}</span></a>
+                          
+                        <div class="product-bottom-details">
+                          <a href="detailPath.html?id=${data[i].ProductID}"><div class="product-price">${data[i].ProductRate}</div></a>
+                          <div class="product-links">
+                            <a href="detailPath.html?id=${data[i].ProductID}"><i class="fa fa-heart"></i></a>
+                          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+		</div>`
+      };
+    }
+  }
+  else if (search) {
+    for (var i = 0; i < data.length; i++) {
+      // console.log((data[i].ProductName).toLocaleLowerCase()==search.toLocaleLowerCase())
+      if ((data[i].ProductName).toLocaleLowerCase() == search.toLocaleLowerCase()) {
+        document.getElementById('card-data').innerHTML += `      
+      <div class="col-md-4">
+			<div class="product-card">
+                       <div class="badge">Hot</div>
+                      <div class="product-tumb">
+                        <a href="detailPath.html?id=${data[i].ProductID}"><img src="${data[i].ProductImage}" alt=""></a>
+                      </div>
+                      <div class="product-details">
+                        <a href="detailPath.html?id=${data[i].ProductID}"><span class="product-catagory">${data[i].ProductName}</span></a>
+                          
+                        <div class="product-bottom-details">
+                          <a href="detailPath.html?id=${data[i].ProductID}"><div class="product-price">${data[i].ProductRate}</div></a>
+                          <div class="product-links">
+                            <a href="detailPath.html?id=${data[i].ProductID}"><i class="fa fa-heart"></i></a>
+                          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+		</div>`
+      };
+    }
+  } else {
+    for (var i = 0; i < data.length; i++) {
+      document.getElementById('card-data').innerHTML += `      
+      <div class="col-md-4">
+			<div class="product-card">
+                       <div class="badge">Hot</div>
+                      <div class="product-tumb">
+                        <a href="detailPath.html?id=${data[i].ProductID}"><img src="${data[i].ProductImage}" alt=""></a>
+                      </div>
+                      <div class="product-details">
+                        <a href="detailPath.html?id=${data[i].ProductID}"><span class="product-catagory">${data[i].ProductName}</span></a>
+                          
+                        <div class="product-bottom-details">
+                          <a href="detailPath.html?id=${data[i].ProductID}"><div class="product-price">${data[i].ProductRate}</div></a>
+                          <div class="product-links">
+                            <a href="detailPath.html?id=${data[i].ProductID}"><i class="fa fa-heart"></i></a>
+                          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+		</div>`
+    }
+  }
+
+
+</script>
